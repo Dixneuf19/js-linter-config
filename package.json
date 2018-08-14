@@ -1,0 +1,28 @@
+{
+  "name": "js-linter-config",
+  "version": "1.0.0",
+  "description": "My own configuration for a good linting process with prettier + eslint + VSCode",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier-eslint \".\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dixneuf19/js-linter-config.git"
+  },
+  "author": "Julen Dixneuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dixneuf19/js-linter-config/issues"
+  },
+  "homepage": "https://github.com/Dixneuf19/js-linter-config#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
+  }
+}
